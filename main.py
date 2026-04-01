@@ -36,4 +36,4 @@ def generate_from_repo(repo: str, api_key_file: str, output_file=False, output_f
         with open(output_file_name, "w") as f:
             f.write(response.text)
 
-generate_from_repo(repo="https://github.com/simsononroad/masodfoku_egyenlet_megoldas", api_key_file="", be_readme=True)
+generate_from_repo(repo="https://github.com/simsononroad/ai_descript", api_key_file="api.txt", be_readme=True)
